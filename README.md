@@ -25,3 +25,27 @@ Author  - Yogita Solanki
 ### Seleniod - Docker Grid Running
 - Selenoid is a powerful tool for running Selenium tests in Docker containers.
 - which can help you manage and scale your test automation infrastructure more efficiently.
+
+## How to add Log4J in the Project ?
+- Add this to the pom.xml
+```<dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-core</artifactId>
+      <version>3.0.0-beta2</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-api</artifactId>
+      <version>3.0.0-beta2</version>
+    </dependency> 
+```
+
+```
+-     private static final Logger logger = LogManager.getLogger(TestVWOLogin_PF_DM.class);
+    
+file
+logger.info("Starting Test");
+
+```

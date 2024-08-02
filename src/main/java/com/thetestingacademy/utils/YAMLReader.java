@@ -1,6 +1,4 @@
 package com.thetestingacademy.utils;
 
-public class UtilExcel {
-
-
+public class YAMLReader {
 }

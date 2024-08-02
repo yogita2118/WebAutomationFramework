@@ -1,4 +1,4 @@
-package com.thetestingacademy;
+package com.thetestingacademy.tests.qa;
 
 //public class TestVWOLogin {
 //    public static void main(String[] args) {
